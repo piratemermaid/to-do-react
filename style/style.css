@@ -1,0 +1,103 @@
+/*light purple: DED2DE*/
+/*heading purple: B595B5*/
+/*darker purple: 846A84*/
+
+body {
+	background: #eee;
+	padding: 24px;
+	font-family: 'Hind', sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+.panel-heading {
+	background: #B595B5 !important;
+}
+
+.panel {
+	/*border: 1px solid #846A84;*/
+	border: none;
+	box-shadow: 2px 3px 5px #846A84;
+}
+
+.input-item {
+	width: 100%;
+	height: 56px;
+	font-size: 24px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #846A84;
+}
+
+input[type=text]:focus {
+	border: 1px solid #846A84;
+}
+
+button {
+	background: #DED2DE;
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	padding: 6px;
+	border: none;
+}
+
+button:hover {
+	background: #B595B5;
+}
+
+.list-group {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.list-group-item {
+	height: 50px;
+}
+
+.checkbox {
+	line-height: 2px;
+	background: white;
+	border: 1px solid black;
+	float: left;
+	padding: 12px 5px 0 5px;
+	margin: 0;
+	margin-right: 10px;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+}
+
+.checkbox:hover {
+	background: #eee;
+	cursor: pointer;
+}
+
+.checkmark {
+	margin: 0;
+	border: 0;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.checked {
+	font-style: italic;
+	text-decoration: line-through;
+}
+
+/*.fa {
+	visibility: hidden;
+}*/
+
+.add-btn {
+	border-radius: 5px;
+}
+
+.edit-item {
+	border: none;
+	border-bottom: 1px solid purple;
+	height: 25px;
+	width: 90%;
+}
